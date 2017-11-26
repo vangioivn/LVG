@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function1() {
 
 //Set Default State of each portfolio piece
 $(".paging_btrix").show();
@@ -13,7 +13,7 @@ var imageReelWidth = imageWidth * imageSum;
 $(".image_reel").css({'width' : imageReelWidth});
 
 //paging_btrix + Slider Function
-rotate = function(){ 
+rotate = function1(){ 
 var triggerID = $active.attr("rel") - 1; //Get number of times to slide
 var image_reelPosition = triggerID * imageWidth; //Determines the distance the image reel needs to slide
 
@@ -28,7 +28,7 @@ left: -image_reelPosition
 }; 
 
 //Rotation + Timing Event
-rotateSwitch = function(){ 
+rotateSwitch = function1(){ 
 play = setInterval(function(){ //Set timer - this will repeat itself every 3 seconds
 $active = $('.paging_btrix a.active').next();
 if ( $active.length === 0) { //If paging_btrix reaches the end...
